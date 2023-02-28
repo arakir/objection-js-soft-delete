@@ -10,8 +10,7 @@
         "build": "babel src -d dist",
         "lint": "eslint . --fix",
         "test": "jest",
-        "clean": "rm -rf dist",
-        "prepare": "husky install"
+        "clean": "rm -rf dist"
     },
     "lint-staged": {
         "*.js": "yarn run lint"
